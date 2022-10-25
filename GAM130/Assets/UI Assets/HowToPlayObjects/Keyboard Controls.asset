@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd4afb7ab387be499c370068afb0a72, type: 3}
+  m_Name: Keyboard Controls
+  m_EditorClassIdentifier: 
+  HowToName: Keyboard Controls
+  HowToDescription: "-Left click to select towers, interact with menus and place
+    towers\n\r\n-Press the ESC key to open the pause menu\r\n\n-Pressing backspace
+    on a selected tower will place it in Move state, from here the tower can be replaced
+    with left click or sold with backspace\r again\n\n1-6 number keys: Tower select
+    hotkeys\r\nQWERTY: Tower upgrade hotkeys\r\n"
+  HowToIcon: {fileID: 0}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd4afb7ab387be499c370068afb0a72, type: 3}
+  m_Name: Moving and Selling
+  m_EditorClassIdentifier: 
+  HowToName: Moving and Selling
+  HowToDescription: "-Clicking on a placed down tower selects it, once it is selected,
+    it can be put in the Move state with the Backspace or Y buttons.\n\n-Once a Tower
+    is in this state, it can be replaced elsewhere for half its original cost, or
+    sold entirely for half the money it was bought for by pressing Y again or enter.
+    \r\n"
+  HowToIcon: {fileID: 0}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd4afb7ab387be499c370068afb0a72, type: 3}
+  m_Name: Upgrades
+  m_EditorClassIdentifier: 
+  HowToName: Upgrades
+  HowToDescription: '-The different tower types can be improved for the rest of the
+    game using upgrades!
+
+
+    -Tower upgrades can be purchased to grant a permanent
+    improvement to all towers of that type, there are three for each, every upgrade
+    more powerful than the last.
+
+
+    -Be warned! Upgrades can also get very expensive.
+
+
+    -Tower
+    upgrades are viewable in the top right under the upgrades menu.
+
+'
+  HowToIcon: {fileID: 0}

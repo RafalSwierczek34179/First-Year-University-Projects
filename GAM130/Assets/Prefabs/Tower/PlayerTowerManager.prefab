@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3566230629704617237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3566230629704617226}
+  - component: {fileID: 3566230629704617227}
+  - component: {fileID: 3566230629704617236}
+  - component: {fileID: 3566230629704617225}
+  - component: {fileID: -7087841796190250748}
+  m_Layer: 0
+  m_Name: PlayerTowerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3566230629704617226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3566230629704617237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.1145916, y: -15.872959, z: 29.151413}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3566230629704617227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3566230629704617237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36373af350d71147a1d20233a92bee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfUniqueTowerPrefabs:
+  - {fileID: 6644445629377054876, guid: 210d32be8e9e14649850f3ed179821c7, type: 3}
+  - {fileID: 6644445629377054876, guid: 0f7e00947c797a045b3149efcfdc385c, type: 3}
+  - {fileID: 6644445629377054876, guid: 7ff0d569d1937e847ae9cf191c80a1ee, type: 3}
+  spawnedTowerList: []
+  cannonExplosionPrefab: {fileID: 8812770098159230521, guid: b927fd2a48d8e4c45b91791eb9421c25, type: 3}
+  buildMode:
+    m_Name: Build Mode
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b322e279-1c9a-48cc-9d2f-1cae5d7953aa
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: d7cd0d1b-7ea8-43bd-abbe-ba7cd1a7042b
+      m_Path: <Keyboard>/enter
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Build Mode
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 27e75a30-00d1-42c0-aa6e-2483718199cb
+      m_Path: <Gamepad>/buttonEast
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Build Mode
+      m_Flags: 0
+  placeTower:
+    m_Name: Place Tower
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: bd26f018-e18e-44b1-9e18-8bb52d652018
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 13810545-0218-4e2c-bf02-0bc99884ecf8
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Place Tower
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ebb2e761-1d31-4dcf-b468-4a222d16a2de
+      m_Path: <Gamepad>/buttonNorth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Place Tower
+      m_Flags: 0
+--- !u!114 &3566230629704617236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3566230629704617237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef9b52385757b647b24d0f076189587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoneyValueText: {fileID: 0}
+  CurrentMoney: 0
+--- !u!114 &3566230629704617225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3566230629704617237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e49b9ca80f89947b9e7800fe3aa0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7087841796190250748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3566230629704617237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfef990e6b79832428428f87a6b40d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd4afb7ab387be499c370068afb0a72, type: 3}
+  m_Name: HowToPlay
+  m_EditorClassIdentifier: 
+  HowToName: How To Play
+  HowToDescription: "-Defend the castle from the king\u2019s traitors!\r\n\n-Enemy
+    troops will follow set paths to reach the castle, if enough of them do, it\u2019s
+    game over\n \n-To stop this, place towers that will attack enemies and stop them
+    reaching the tower. \n\n-Be careful, the more of the same tower you place down,
+    the more expensive they will be! \r\n"
+  HowToIcon: {fileID: 0}
